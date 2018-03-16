@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60308" started-at="2018-03-14T16:30:41Z" finished-at="2018-03-14T16:31:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60308" started-at="2018-03-14T16:30:41Z" finished-at="2018-03-14T16:31:41Z">
+      <class name="script.CheckProductVersion">
+        <test-method status="PASS" signature="OpenAppplication()[pri:0, instance:script.CheckProductVersion@6be70a]" name="OpenAppplication" is-config="true" duration-ms="19414" started-at="2018-03-14T22:00:41Z" finished-at="2018-03-14T22:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppplication -->
+        <test-method status="PASS" signature="testCheckProductVersion()[pri:3, instance:script.CheckProductVersion@6be70a]" name="testCheckProductVersion" duration-ms="39938" started-at="2018-03-14T22:01:00Z" finished-at="2018-03-14T22:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckProductVersion -->
+        <test-method status="PASS" signature="closeApplcation(org.testng.ITestResult)[pri:0, instance:script.CheckProductVersion@6be70a]" name="closeApplcation" is-config="true" duration-ms="909" started-at="2018-03-14T22:01:40Z" finished-at="2018-03-14T22:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckProductVersion status=SUCCESS method=CheckProductVersion.testCheckProductVersion()[pri:3, instance:script.CheckProductVersion@6be70a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplcation -->
+      </class> <!-- script.CheckProductVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
